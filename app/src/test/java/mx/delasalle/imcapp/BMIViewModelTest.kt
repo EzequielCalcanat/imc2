@@ -17,7 +17,7 @@ class BMIViewModelTest {
     fun calculateBMICorrectlyForNormalWeight(){
         // Arrange
         bmiViewModel.weight.value = "70"
-        bmiViewModel.height.value = "2"
+        bmiViewModel.height.value = "1.75"
         // Act
         bmiViewModel.calculateBMI()
         // Assert
